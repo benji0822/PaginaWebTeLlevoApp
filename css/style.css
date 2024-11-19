@@ -1,8 +1,6 @@
 /*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
+	La imagen del banner se cambia en la linea 410,
+    Los botones de las tiendas en la liena 871
 --*/
 
 html,
@@ -55,7 +53,7 @@ h6 {
 
 p {
     font-size: 0.85em;
-    color: #777;
+    color: #080808;
     line-height: 1.9em;
     letter-spacing: 1px;
 }
@@ -159,14 +157,14 @@ nav ul.menu li a {
 
 
 nav ul li ul li:hover {
-    background: #333;
+    background: #969595;
 }
 
 
 /* Background color change on Hover */
 
 .menu li.active a {
-    color: #ffc80a;
+    color: #878684;
 }
 
 /* Hide Dropdowns by Default
@@ -408,7 +406,7 @@ li > a:only-child:after {
 /*-- //header --*/
 
 .main-content {
-    background: url(../images/banner1.jpg) center no-repeat;
+    background: url(../images/banner1.png) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -561,7 +559,7 @@ a.read-more {
 .ab-icon span {
     font-size: 1.5em;
     line-height: 3em;
-    color: #ffc80a;
+    color: #eae8e4;
 }
 
 .ab-info h5 {
@@ -637,14 +635,14 @@ a.read-more {
 /*-- //banner --*/
 
 .services {
-    background: #f8f8f8;
+    background: #dedddd;
 }
 
 h3.tittle,
 h3.tittle.two {
     font-size: 2.3em;
     font-weight: 800;
-    color: #33353a;
+    color: #121212;
     text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
     text-transform: uppercase;
 }
@@ -709,7 +707,7 @@ span.title {
 .benifit-icon span {
     font-size: 1.5em;
     line-height: 3em;
-    color: #ffc80a;
+    color: #eae8e4;
 }
 
 .benifit-icon-content {
@@ -721,12 +719,12 @@ span.title {
 /*-- /order-sec --*/
 
 .order-sec {
-    background: #ffc80a;
+    background: #090909;
 }
 
 h3.tittle span,
 h3.tittle.two span {
-    color: #26262b;
+    color: #fdfdfd;
     display: block;
     font-size: 0.6em;
     letter-spacing: 2px;
@@ -855,24 +853,24 @@ ul.list-unstyled.w3pvt-icons.clients li span:hover {
 
 .bottom-gd h3 {
     font-size: 1em;
-    color: #4b4c4c;
+    color: #060606;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .bottom-gd span {
     font-size: 2em;
-    color: #616569;
+    color: #090909;
 }
 
 ul.list-unstyled.apps-lists {
     display: flex;
     list-style: none;
 }
-
+/*botones de las tiendas*/
 ul.apps-lists li a {
-    background: #ffc80a;
-    color: #1b1e21;
+    background: #090909;
+    color: #eae8e4;
     padding: 1em 2em;
     border-radius: 0px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
@@ -891,7 +889,7 @@ ul.apps-lists li a:hover {
 }
 
 section.app-serve {
-    background: #f7f7f7;
+    background: #dedddd;
 }
 
 /*--//app--*/
@@ -1010,7 +1008,7 @@ span.decription {
 
 
 .contact-form button.btn {
-    background: #ffc80a;
+    background: #090909;
     padding: 15px 25px;
     font-size: 14px;
     letter-spacing: 2px;
@@ -1141,7 +1139,7 @@ ul.list-info-lavi {
 /* footer */
 
 .asap-w3pvt-footer-logo a {
-    color: #ffc80a;
+    color: #e9e7e3;
     font-size: 1.6em;
     font-weight: 800;
     text-transform: uppercase;
